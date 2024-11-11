@@ -11,7 +11,18 @@ pip install .
 ```
 
 ## Usage
-### 1. Register data
+### 1. Register data to track
 ```bash
-python sfm register --source-path /path/to/source/folder
+SmartFileManager register <path_to_file_or_directory>
 ```
+
+### 2. Optimize storage
+```bash
+SmartFileManager optimize
+```
+
+### 3. Remove data from tracking
+```bash
+SmartFileManager remove <path_to_file_or_directory>
+```
+

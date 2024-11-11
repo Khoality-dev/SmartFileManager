@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SmartFileManager"
+version = "0.0.1"
+description = "Smart File Manager: an effective storage management system"
+authors = [{name = "Anh Khoa Nguyen"}]
+dependencies = [
+    "tqdm",
+    "hermetrics"
+]
+
+[project.scripts]
+SmartFileManager = "smartfilemanager.main:main"
