@@ -1,6 +1,5 @@
 # Smart File Manager: an effective storage management system
 
-## Introduction
 Smart File Manager aims to manage and organize files on your computer, ensuring that frequently accessed files are stored on high-speed storage for quicker access. It also works to minimize data duplication, making file management more efficient.
 
 ## Setup
